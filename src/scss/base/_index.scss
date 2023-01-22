@@ -1,0 +1,5 @@
+@forward "normalize"; //@forward nos sirve solo para incluir el contenido, pero no lo usa, en este caso index hace referencia a deferentes archivos, para despues llamar a este archivo index con @use, de esta forma compilaremos lo que esta incluido aqui en index
+@forward "variables";
+@forward "tipografia";
+@forward "globales";
+@forward "mixins";

@@ -1,0 +1,24 @@
+// Fonts
+// cargar roboto con 400 700 y 900
+// cargar raleway con 700 y 900
+// cargar bonanova con 400
+
+$primaryFont: "Raleway", sans-serif;
+$secondaryFont: "Roboto", sans-serif;
+$italicFont: "Bona Nova", serif;
+
+// Media queries
+$phone: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+
+// Colors
+$primaryColor: #5e311e;
+$secondaryColor: #c39c63;
+$blackColor: #000;
+$whiteColor: #fff;
+$lightGray: #eceeef;
+$lightcoffe: #ebe7de;
+
+//Units
+$distance: 5rem;

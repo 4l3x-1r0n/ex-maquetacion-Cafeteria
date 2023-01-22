@@ -1,0 +1,45 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.footer {
+    background-color: v.$primaryColor;
+
+    .footer-content {
+        background-color: v.$whiteColor;
+        padding: 5rem;
+
+        @include m.tablet {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}
+
+.footer-box {
+    font-family: v.$italicFont;
+    text-align: center;
+    margin-bottom: v.$distance;
+    @include m.tablet {
+        margin-bottom: 0;
+    }
+
+    h3 {
+        font-family: v.$italicFont;
+        margin: 0 0 1rem 0;
+        font-size: 2.4rem;
+        color: v.$secondaryColor;
+    }
+    p,
+    a {
+        font-size: 2rem;
+        margin: 0;
+    }
+}
+
+.copy {
+    color: v.$whiteColor;
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+    font-size: 1.5rem;
+}

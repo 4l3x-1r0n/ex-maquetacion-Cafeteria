@@ -1,0 +1,6 @@
+@use "base"; //si no indicamos el nombre del modulo que queremos cargar, toma por defecto el _index.scss
+@use "header";
+@use "main";
+@use "footer";
+@use "internas";
+@use "utilidades";

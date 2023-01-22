@@ -1,0 +1,25 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.icons {
+    ul {
+        margin: 5rem;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include m.tablet {
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        li {
+            width: 12rem;
+            p {
+                font-family: v.$italicFont;
+                font-size: 3.2rem;
+                color: v.$primaryColor;
+            }
+        }
+    }
+}
